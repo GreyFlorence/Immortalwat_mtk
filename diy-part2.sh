@@ -14,4 +14,4 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 #cpu clock 1100Mhz setup
-rm openwrt/target/linux/ramips/patches-5.10/322-mt7621-fix-cpu-clk-add-clkdev.patch && mv 322-mt7621-fix-cpu-clk-add-clkdev.patch openwrt/target/linux/ramips/patches-5.10/
+rm target/linux/ramips/patches-5.10/322-mt7621-fix-cpu-clk-add-clkdev.patch && mv 322-mt7621-fix-cpu-clk-add-clkdev.patch target/linux/ramips/patches-5.10/
