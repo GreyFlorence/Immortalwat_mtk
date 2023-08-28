@@ -18,5 +18,5 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 #cpu clock 1100Mhz setup
-rm openwrt/target/linux/ramips/patches-5.10/322-mt7621-fix-cpu-clk-add-clkdev.patch &&
-wget -P openwrt/target/linux/ramips/patches-5.10/ https://raw.githubusercontent.com/GreyFlorence/Immortalwrt_mtk/main/322-mt7621-fix-cpu-clk-add-clkdev.patch
+#rm openwrt/target/linux/ramips/patches-5.10/322-mt7621-fix-cpu-clk-add-clkdev.patch &&
+#wget -P openwrt/target/linux/ramips/patches-5.10/ https://raw.githubusercontent.com/GreyFlorence/Immortalwrt_mtk/main/322-mt7621-fix-cpu-clk-add-clkdev.patch
